@@ -1,0 +1,1 @@
+As informações em formato tabular são definitivamente muito úteis, mas às vezes precisaremos de uma mudança de foco nos dados que temos. Por isso, nesta lição aprenderemos a agrupar os dados e visualizá-los na forma de gráficos. :bar_chart:
