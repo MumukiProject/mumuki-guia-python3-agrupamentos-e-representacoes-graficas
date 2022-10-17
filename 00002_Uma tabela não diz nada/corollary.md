@@ -1,8 +1,8 @@
-¡Acabamos de realizar un gráfico de líneas :chart_with_upwards_trend:! Y gracias a éste, hemos podido identificar y visualizar más fácilmente una relación recurrente entre los datos, que si sólo los viéramos numéricamente, sería más difícil de percibir.
+Acabamos de fazer um gráfico de linhas! :chart_with_upwards_trend:! E graças a isso, conseguimos identificar e visualizar com mais facilidade uma relação recorrente entre os dados, que se os víssemos apenas numericamente, seria mais difícil de perceber.
 
 <img src="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-python3-agrupaciones-y-graficaciones/master/assets/employment_gender_plot_line_1663774442784.png" alt="employment_gender_plot_line_1663774442784.png" width="auto" height="auto">
 
 
-Obviamente, es posible que algunas personas, o incluso vos, no hayan necesitado ver esta representación gráfica de los datos para observar este patrón, pero en general, como dice el conocido dicho, _una imagen vale más que mil palabras_ 🖼️.
+Obviamente, é possível que algumas pessoas, ou mesmo você, não tenham necessitado ver essa representação gráfica dos dados para observar esse padrão, mas em geral, como diz o ditado popular, _uma imagem vale mais que mil palavras_ 🖼️.
 
-¡Aprendamos más sobre gráficos!
+Vamos aprender mais sobre gráficos!

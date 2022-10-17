@@ -10,19 +10,20 @@ teacher_info: ''
 manual_evaluation: false
 choices:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: El nivel de empleo no varía a lo largo de los diferente años
+  value: O nível de emprego não varia ao longo dos diferentes anos
   checked: false
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Las mujeres presentan siempre una menor tasa de empleo que los hombres
+  value: As mulheres apresentam sempre uma taxa de emprego mais baixa do que os homens
   checked: true
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Las mujeres presentan siempre una mayor tasa de empleo que los hombres
+  value: As mulheres apresentam sempre uma taxa de emprego mais elevada do que os
+    homens
   checked: false
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Las mujeres presentan siempre la misma tasa de empleo que los hombres
+  value: As mulheres apresentam sempre a mesma taxa de emprego que os homens
   checked: false
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Las mujeres presentan a veces mayores tasas de empleo que los hombres y otras
-    veces, menores
+  value: As mulheres às vezes apresentam taxas de emprego mais altas do que os homens
+    e outras vezes, mais baixas
   checked: false
 name: Uma tabela não diz nada
