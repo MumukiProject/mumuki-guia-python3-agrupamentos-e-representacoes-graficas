@@ -3,6 +3,7 @@ name: Agrupamentos e representações gráficas
 locale: pt
 type: learning
 beta: false
+teacher_info: ''
 language: python3
 id_format: "%05d"
 order:
