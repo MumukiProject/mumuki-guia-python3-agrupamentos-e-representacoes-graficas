@@ -21,4 +21,4 @@ choices:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   value: Muestra un gráfico de torta
   checked: false
-name: Una imagen en pocas palabras
+name: Uma imagem em poucas palavras
