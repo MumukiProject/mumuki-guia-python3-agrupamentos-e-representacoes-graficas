@@ -12,4 +12,4 @@ goal: |
   --- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   kind: last_query_equals
   value: TODO
-name: Una pandilla
+name: Um grupo de pandas
