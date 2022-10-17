@@ -21,4 +21,4 @@ choices:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   value: Sí, es posible hacerlo usando `cines.value_counts("sector").sum()`
   checked: false
-name: "¡Agrúpense un poco!"
+name: Agrupe-se um pouco!
