@@ -1,0 +1,1 @@
+💡 Como podemos notar, resulta muy útil que `groupby` retorne un `Series` .  Gracias a esto, podemos aplicar varias de las operaciones que ya conocíamos sobre este resultado agrupado y utilizarlo para siguientes etapas de nuestro análisis. 🥳

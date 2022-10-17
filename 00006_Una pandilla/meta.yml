@@ -1,0 +1,15 @@
+---
+locale: es
+tags: []
+layout: input_bottom
+editor: external
+type: problem
+extra_visible: false
+teacher_info: ''
+manual_evaluation: false
+choices: []
+goal: |
+  --- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  kind: last_query_equals
+  value: TODO
+name: Una pandilla

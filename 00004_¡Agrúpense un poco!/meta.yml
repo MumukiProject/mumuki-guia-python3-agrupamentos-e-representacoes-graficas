@@ -1,0 +1,24 @@
+---
+locale: es
+tags: []
+layout: input_bottom
+editor: single_choice
+type: problem
+extra_visible: false
+language: text
+teacher_info: ''
+manual_evaluation: false
+choices:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: 'No'
+  checked: true
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Sí, es posible hacerlo usando `cines.value_counts("sector")`
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Sí, es posible hacerlo usando `cines["screens"].sum()`
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Sí, es posible hacerlo usando `cines.value_counts("sector").sum()`
+  checked: false
+name: "¡Agrúpense un poco!"
