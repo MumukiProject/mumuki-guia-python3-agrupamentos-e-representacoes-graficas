@@ -1,13 +1,13 @@
-Con `pandas` podemos realizar distintos tipos de gráficos con pocas líneas de código. En el ejemplo anterior...
+Com `pandas` podemos fazer diferentes tipos de gráficos com poucas linhas de código. No exemplo anterior...
 
 ```python
-empleo.plot.line(x="year")
+emprego.plot.line(x="year")
 ```
 
-....vemos como tomando datos de nuestra tabla `empleo`, realizamos un gráfico de líneas en el que nuestro eje x (también llamado _abscisas_ o _eje horizontal_) es el `year`.  Además, implícitamente nuestro eje y (_ordenadas_, o _eje vertical_) incluye como _series_ a las demás columnas numéricas, en nuestro caso la `employment_rate_female` y `employment_rate_male`. Lo mismo lo podemos decir de forma más explícita así:
+....vemos como, utilizando os dados da nossa tabela `emprego`, fazemos um gráfico de linhas no qual nosso eixo x (também chamado de _abscissas_ ou _eixo horizontal_) é o `year`. Além disso, nosso eixo e (ordenadas ou eixo vertical) inclui implicitamente as outras colunas numéricas como _series_, em nosso caso, `employment_rate_female` e `employment_rate_male`. Podemos dizer a mesma coisa mais explicitamente assim:
 
 ```python
 empleo.plot.line(x="year", y = ["employment_rate_female", "employment_rate_male"])
 ```
 
-> Pero `pandas` no sólo nos permite hacer gráficos de líneas. Probá cambiar en tu cuaderno los ejemplos anteriores `plot.line` por `plot.bar` y ejecutalos nuevamente. ¿Qué sucede?
+> Mas `pandas` não permite apenas fazer gráficos de linhas. Tente alterar os exemplos anteriores de `plot.line` para `plot.bar` em seu caderno e execute-os novamente. O que acontece?

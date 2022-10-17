@@ -10,15 +10,15 @@ teacher_info: ''
 manual_evaluation: false
 choices:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Da error
+  value: Dá erro
   checked: false
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Muestra un gráfico de línea
+  value: Mostra um gráfico de linha
   checked: false
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Muestra un gráfico de barras
+  value: Mostra um gráfico de barras
   checked: true
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Muestra un gráfico de torta
+  value: Mostra um gráfico de pizza
   checked: false
 name: Uma imagem em poucas palavras

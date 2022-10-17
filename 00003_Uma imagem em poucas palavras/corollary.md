@@ -1,15 +1,15 @@
-Como vemos, ahora tenemos un gráfico de barras, en el que la información se muestra de forma _discreta_, es decir, dando saltos año a año en lugar de unirlas mediante líneas _continuas_.
+Como podemos ver, agora temos um gráfico de barras, no qual a informação é mostrada de forma _discreta_, ou seja, dando saltos de ano em ano ao invés de uni-las por meio de linhas _contínuas_.
 
 <img src="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-python3-agrupaciones-y-graficaciones/master/assets/employment_gender_plot_bar_1663775871814.png" alt="employment_gender_plot_bar_1663775871814.png" width="auto" height="auto">
 
-Por otro lado, los datos no siempre estarán discriminados en múltiples series. Por ejemplo, si contáramos con únicamente una tabla con la información de empleo total... 
+Por outro lado, nem sempre os dados serão discriminados em séries múltiplas. Por exemplo, se tivéssemos apenas uma tabela com as informações totais de emprego...
 
 ```python
-empleo_total = pd.read_csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vRSa9oM9fC-QlT7VOeGhZQtrWnlNSTsk3U8DWGTOXUWtPH6u9o5O5eZ0kTg8mFTwAn9vMdGRK7o2SPB/pub?gid=1194930839&single=true&output=csv")
-empleo_total.head(5)
+emprego_total = pd.read_csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vRSa9oM9fC-QlT7VOeGhZQtrWnlNSTsk3U8DWGTOXUWtPH6u9o5O5eZ0kTg8mFTwAn9vMdGRK7o2SPB/pub?gid=1194930839&single=true&output=csv")
+emprego_total.head(5)
 ```
 
-...podríamos especificar una única serie en el eje y: 
+....poderíamos especificar uma única série no eixo y:
 
 ||year|employment_rate|
 |---|---|---|
@@ -22,6 +22,7 @@ empleo_total.head(5)
 
 
 ```python
-empleo_total.plot.line(x="year", y="employment_rate")
+emprego_total.plot.line(x="year", y="employment_rate")
 ```
+
 <img src="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-python3-agrupaciones-y-graficaciones/master/assets/employment_rate_plot_line_1663776537522.png" alt="employment_rate_plot_line_1663776537522.png" width="auto" height="auto">
