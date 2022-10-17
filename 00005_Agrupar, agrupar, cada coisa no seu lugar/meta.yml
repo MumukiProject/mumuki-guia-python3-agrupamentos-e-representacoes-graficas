@@ -10,18 +10,18 @@ teacher_info: ''
 manual_evaluation: false
 choices:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Agrupar según infracciones y calcular la media de las patentes
+  value: agrupar de acordo com as infrações e calcular a média das placas
   checked: false
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Agrupar según patentes y calcular la media de las infracciones
+  value: agrupar de acordo com as placas e calcular a média das infrações
   checked: true
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Agrupar según patentes y calcular la mediana de las infracciones
+  value: agrupar de acordo com as placas e calcular a mediana das infrações
   checked: false
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Agrupar según patentes y calcular la menor de las infracciones
+  value: agrupar de acordo com as placas e calcular a menor das infrações
   checked: false
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Agrupar según patentes y calcular la cantidad de las infracciones
+  value: agrupar de acordo com as patentes e calcular o número de infrações
   checked: false
-name: Agrupar, agrupar, cada cosa en su lugar
+name: Agrupar, agrupar, cada coisa no seu lugar
