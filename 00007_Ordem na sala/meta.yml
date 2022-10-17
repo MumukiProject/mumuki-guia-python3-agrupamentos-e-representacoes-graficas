@@ -12,4 +12,4 @@ goal: |
   --- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   kind: last_query_equals
   value: TODO
-name: Orden en la sala
+name: Ordem na sala
