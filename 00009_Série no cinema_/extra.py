@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 
-cines = pd.DataFrame([
+cinemas = pd.DataFrame([
     {'loc_code': 82070050, 'prov_id': 82, 'dep_id': 82070, 'obs': np.nan, 'category': 'Salas de cine', 'province': 'Santa Fe', 'department': 'Las Colonias', 'city': 'Esperanza', 'name': 'E-Max Cines', 'address': 'Brigadier Lopez 1471', 'floor': 's/d', 'zip_code': 3080, 'area_code': '3496', 'sector': 'Privado comercial', 'screens': 3, 'seats': 584, 'update_year': 2018},
     {'loc_code': 6210020, 'prov_id': 6, 'dep_id': 6210, 'obs': np.nan, 'category': 'Salas de cine', 'province': 'Buenos Aires', 'department': 'Chacabuco', 'city': 'Chacabuco', 'name': 'Cine Teatro Español', 'address': 'Pueyrredon 29', 'floor': 's/d', 'zip_code': 6740, 'area_code': '2352', 'sector': 'Privado comercial', 'screens': 1, 'seats': 700, 'update_year': 2018},
     {'loc_code': 2000010, 'prov_id': 2, 'dep_id': 2000, 'obs': np.nan, 'category': 'Salas de cine', 'province': 'Ciudad Autónoma de Buenos Aires', 'department': 'Ciudad Autonoma de Buenos Aires', 'city': 'Ciudad Autónoma de Buenos Aires', 'name': 'Sala Leopoldo Lugones', 'address': 'Av. Corrientes 1530', 'floor': 's/d', 'zip_code': 1042, 'area_code': 's/d', 'sector': 'Público municipal', 'screens': 1, 'seats': 212, 'update_year': 2018},
