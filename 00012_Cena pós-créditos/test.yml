@@ -1,8 +1,8 @@
-- name: 'Segunda localidad con más pantallas totales'
+- name: 'Segunda cidade com o maior número de telas'
   keys:
     sndscreens:
       match: "[Cc][óo]rdoba"
-- name: 'Segunda localidad con más pantallas totales'
+- name: 'Departamento onde os cinemas são maiores'
   keys:
     larger:
       equal: 
