@@ -1,1 +1,1 @@
-¡Felicitaciones! En esta lección aprendiste a agrupar y graficar lotes de datos, y cómo estas herramientas nos permiten entender mejor la información con la que contamos. :glasses: 
+Parabéns! Nesta lição, você aprendeu como agrupar e representar graficamente lotes de dados e como essas ferramentas nos permitem entender melhor as informações que temos. :glasses:
