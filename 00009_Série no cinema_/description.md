@@ -1,4 +1,4 @@
-Para representar com gráficos é definitivamente muito conveniente para `groupby` retornar um `Series`, mas às vezes será mais prático obter os resultados na forma de um `DataFrame` de duas colunas.
+Para representar com gráficos é definitivamente muito conveniente para `groupby` retornar uma `Series`, mas às vezes será mais prático obter os resultados na forma de um `DataFrame` de duas colunas.
 
 Na verdade, quando começamos a analisar nossos dados de cinemas, comentamos que nossa _tabela_ ideal ficaria assim:
 
@@ -11,7 +11,7 @@ Na verdade, quando começamos a analisar nossos dados de cinemas, comentamos que
 |4|Privado independiente|8|
 |5|Privado comunitario|4|
 |6|Otros|1|
- 
+
 📰 A boa notícia é que isso é fácil de conseguir, apenas adicionando o parâmetro `as_index=False` a `groupby`:
 
 ```python

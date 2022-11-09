@@ -16,11 +16,11 @@ choices:
   value: "`plot.pie` permite fazer gráficos de pizza"
   checked: true
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: "`value_counts` também retorna um `Series` e por isso é possível usar seu
+  value: "`value_counts` também retorna uma `Series` e por isso é possível usar seu
     resultado para fazer gráficos"
   checked: true
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: ao representar com gráficos, a ordem dos valores dentro de um `Series` é
+  value: ao representar com gráficos, a ordem dos valores dentro de uma `Series` é
     irrelevante e não tem impacto no gráfico resultante
   checked: false
 name: Traga a pipoca
