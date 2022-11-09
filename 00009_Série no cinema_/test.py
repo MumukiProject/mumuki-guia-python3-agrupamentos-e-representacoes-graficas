@@ -1,8 +1,8 @@
 class Test(unittest.TestCase):
 
-  def test_assentos_por_estado_é_um_series(self):
+  def test_assentos_por_estado_é_uma_series(self):
     self.assertEquals(type(assentos_por_estado), pd.DataFrame)
-    
+
   def test_gera_o_series_correto(self):
     self.assertEquals(assentos_por_estado.to_dict("records"), [
          {'province': 'Buenos Aires', 'seats': 5180},
