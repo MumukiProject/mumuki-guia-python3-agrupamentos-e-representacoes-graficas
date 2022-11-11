@@ -27,7 +27,7 @@ Name: screens, dtype: int64
 
 :eyes: Note que embora `sort_values` retorne um `DataFrame` quando aplicado a um `DataFrame`, se aplicado a um `Séries`, retorna... outro `Séries`! Além disso, diferentemente de quando ordenamos um `DataFrame`, neste caso não precisamos especificar o nome da coluna que vamos ordenar. Afinal, agora estamos trabalhando com uma única coluna! 😛
 
-> Agora é sua vez! Precisamos de um relatório com os estados com a maior média de assentos, que fique aproximadamente assim:
+> Agora é sua vez! Precisamos de um relatório com os **três** estados com a maior média de assentos, que fique aproximadamente assim:
 >
 > ```python
 > province
