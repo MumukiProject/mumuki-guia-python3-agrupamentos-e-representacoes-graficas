@@ -45,7 +45,7 @@ Como podemos ver, quando ao invés de especificar um nome de coluna, passamos um
 > |(...)|
 > |293|6175010|Salas de cine|Buenos Aires|Colon|Colón|Cine Teatro Colon
 >
-> Crie um novo `DataFrame` que tenha o total de assentos por localidade e salve em uma variável `assentos_per_localidade`
+> :seat: Tendo isso em mente, crie um novo `DataFrame` que tenha o total de assentos por localidade e salve em uma variável `assentos_per_localidade`
 
 
 <style>
