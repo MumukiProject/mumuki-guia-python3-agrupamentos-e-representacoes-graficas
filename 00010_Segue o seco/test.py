@@ -11,7 +11,7 @@ class Test(unittest.TestCase):
     self.assertTrue(indexadas.loc["Pilar", "seats"] == 1407, "Pilar deve ter a quantidade correta")
 
   def test_tem_duas_cidades_colon(self):
-    assert len(butacas_por_localidad[butacas_por_localidad["city"]== "Colón"]) == 2, "deve ter duas cidades Colón"
+    assert len(assentos_per_localidade[assentos_per_localidade["city"]== "Colón"]) == 2, "deve ter duas cidades Colón"
   
     
   def test_genera_as_colunas_corretas(self):  
