@@ -2,7 +2,7 @@
   keys:
     sndscreens:
       match: "[Cc][óo]rdoba"
-- name: 'Departamento onde os cinemas são maiores'
+- name: 'Departamento onde os cinemas têm mais assentos'
   keys:
     larger:
       equal: 
