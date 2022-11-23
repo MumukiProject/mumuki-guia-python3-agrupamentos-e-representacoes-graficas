@@ -13,6 +13,6 @@ class Test(unittest.TestCase):
   def test_gera_as_colunas_corretas(self):  
     self.assertEquals(list(proporcao_cinemas_comerciais_estatais.columns), ['province', 'sector'])   
 
-  def test_é_ordenado_do_menor_para_o_maior(self):  
+  def test_esta_ordenado_do_menor_para_o_maior(self):  
     self.assertTrue(proporcao_cinemas_comerciais_estatais["sector"].iloc[0] == 0, "o primeiro elemento deve ser o mínimo")   
   
