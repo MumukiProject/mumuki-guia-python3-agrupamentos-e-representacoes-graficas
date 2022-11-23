@@ -14,13 +14,24 @@ Mas isso não é tudo! `agg` também permite que você use agregações personal
 
 ...podemos escrever algo assim ...
  
-``python
+```python
 cinemas.groupby("province", as_index=False).agg({
    "name": contar_centros_culturais
 })
 ```
 
-... onde em vez de passar uma string com o nome de uma agregação (como `"sum"` ou `"count"`), passamos a referência para uma função. Essas funções que o `agg` recebe devem utilizar uma lista com os valores das linhas de cada grupo:
+... onde em vez de passar uma string com o nome de uma agregação (como `"sum"` ou `"count"`), passamos a referência para uma função. Essas funções que o `agg` aceita devem receber uma lista com os valores das linhas de cada grupo e nelas podemos usar tudo o que sabemos sobre percursos, como variáveis, repetições e alternativas condicionais:
+
+```python
+def contar_centros_culturais(nomes):
+  quantidade = 0
+  for nome in nomes:
+    if "centro cultural" in nome.lower():
+      quantidade += 1
+  return quantidade
+```
+
+Na verdade, podemos até usar compreensões de lista:
 
 ```python
 def contar_centros_culturais(nomes):
