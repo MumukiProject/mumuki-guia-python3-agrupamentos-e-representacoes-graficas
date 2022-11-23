@@ -32,4 +32,5 @@ cinemas.groupby("province", as_index=False).agg({
 # Se te incomoda que a coluna se chame nome, já veremos mais adiante...
 ```
 
->  Vejamos se ficou claro: usando o que acabamos de aprender, gere uma tabela com o número total de assentos em cada província e salve-a na variável `assentos_por_provincia`
+> Vejamos se ficou claro: gere uma tabela `medianas_por_provincia` com o número mediano de telas e assentos em cada província. A tabela deve estar ordenada em ordem alfabética, de A a Z
+

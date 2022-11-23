@@ -2,4 +2,4 @@
 expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
-  inspection: Assigns:proporcao_cinemas_comerciais_estatais
+  inspection: Assigns:medianas_por_provincia
