@@ -15,7 +15,7 @@ class Test(unittest.TestCase):
     
 
   def test_esta_ordenado_de_a_a_z(self):  
-    self.assertTrue(medianas_por_provincia["province"].iloc[0] == "Buenos Aires", "o primer elemento deve ser Buenos Aires") 
+    self.assertTrue(medianas_por_provincia["province"].iloc[0] == "Buenos Aires", "o primeiro elemento deve ser Buenos Aires") 
     self.assertTrue(medianas_por_provincia["province"].iloc[1] == "Ciudad Autónoma de Buenos Aires", "Ciudad Autónoma de Buenos Aires deve estar depois da Buenos Aires")
     self.assertTrue(medianas_por_provincia["province"].iloc[2] == "Salta", "Salta deve estar depois da Ciudad Autónoma de Buenos Aires")
     self.assertTrue(medianas_por_provincia["province"].iloc[4] == "Santa Fe", "Santa Fe deve estar depois de Salta")
