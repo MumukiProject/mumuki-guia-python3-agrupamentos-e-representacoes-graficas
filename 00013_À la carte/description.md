@@ -61,4 +61,4 @@ def contar_centros_culturais(nomes):
 ...e dessa forma encherá o `DataFrame` resultante.
 
 
-> :first_place: Agora é sua vez! Construa uma tabela `proporcao_cinemas_comerciais_estatais` que contenha, para cada estado, a proporção entre 0 e 1 de cinemas de gestão `"Privado comercial"`, ordenada de acordo com esta proporção, do menor para o maior.
+> :first_place: Agora é sua vez! Construa uma tabela `proporcao_cinemas_comercias_provinciais` que contenha, para cada província, a proporção entre 0 e 1 de cinemas de gestão `"Privado comercial"`, ordenada de acordo com esta proporção, do menor para o maior.
