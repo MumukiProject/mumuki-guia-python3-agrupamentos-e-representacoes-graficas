@@ -38,4 +38,27 @@ def contar_centros_culturais(nomes):
  return len([nome for nome in nomes if "centro cultural" in nome.lower()])
 ```
 
+`agg` então chamará esta função internamente, passando para ela os valores das colunas agregadas de cada grupo para calcular o resultado. Por exemplo, ao avaliar as filas da província de `Catamarca`, passará todos os nomes de seus cinemas...
+
+```python
+# o código de agg fará aproximadamente isso 
+ contar_centros_culturais(['Cinemacenter', 'Centro Cultural San Agustín', 'Cinemacenter', 'Cine Teatro Catamarca'])
+1
+```
+
+...e assim saberá que o valor final de agregação de `Catamarca` é `1`. Depois repetirá o processo com cada uma das demais províncias...
+
+```python
+# valores de Corrientes
+ム contar_centros_culturales(['Los Cines De La Costa', 'Espacio Incaa Guido Miranda', 'Cinemacenter', 'Cinemacenter'])
+0
+# valores de Córdoba
+ム contar_centros_culturales(['Sudcinemas', 'Dinosaurio Mall 60 Cuadras',  'Cine Teatro Coop Luz Y Fuerza', ...]
+2
+# etc...
+```
+
+...e dessa forma encherá o `DataFrame` resultante.
+
+
 > :first_place: Agora é sua vez! Construa uma tabela `proporcao_cinemas_comerciais_estatais` que contenha, para cada estado, a proporção entre 0 e 1 de cinemas de gestão `"Privado comercial"`, ordenada de acordo com esta proporção, do menor para o maior.
