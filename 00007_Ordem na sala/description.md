@@ -10,7 +10,7 @@ Privado independente       8
 (...etc...)
 ```
 
-Felizmente, assim como os `DataFrame`s, `Series` podem ser ordenados usando `sort_values`:
+Felizmente, assim como os `DataFrame`s, as `Series` podem ser ordenados usando `sort_values`:
 
 ```python
 ム cinemas.groupby("sector")["screens"].sum().sort_values()
