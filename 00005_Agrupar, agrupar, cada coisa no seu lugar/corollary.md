@@ -8,7 +8,7 @@ Parabéns!  👏 Neste caso queríamos a média das multas e por isso precisamos
 |`mm12`|150|
 |`hz15`|100|
 
-...a mediana...:
+...a mediana...
 
 
 |placa|infração|
