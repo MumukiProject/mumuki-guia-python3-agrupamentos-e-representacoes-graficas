@@ -1,4 +1,4 @@
-E o que teria acontecido se precisássemos do número total de assentos por Estado? E por localidade (ou seja, cidade ou povoado)? Poderíamos fazer algo assim?
+E o que teria acontecido se precisássemos do número total de assentos por departamento? E por localidade (ou seja, cidade ou povoado)? Poderíamos fazer algo assim?
 
 ```python
 # total de assentos por departamento?
