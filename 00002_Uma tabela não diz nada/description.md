@@ -13,9 +13,9 @@
 |2011|50.56|66.77|
 |(...)|
 
-...provavelmente você deve ter reconhecido que os dados do lote representam uma estatística de porcentagens anuais de emprego. Você deve ter notado que nesta estatística, eles estão em torno de 50 ou 60 pontos.
+...provavelmente você deve ter reconhecido que os dados do lote representam uma estatística de porcentagens anuais de emprego. Você deve ter notado que nesta estatística, esses valores estão em torno de 50 ou 60 pontos.
 
-Além disso, os dados, estão discriminados por sexo, ou seja, em vez de nos mostrar o nível de emprego total, eles fazem distinção entre homens e mulheres. Você também notou alguma relação, em cada ano, entre esses dois valores?
+Além disso, os dados estão discriminados por sexo, ou seja, em vez de nos mostrar o nível de emprego total, são divididos em homens e mulheres. Você também notou alguma relação, em cada ano, entre esses dois valores?
 
 > :mag: Vamos analisar os dados! Escreva o seguinte código em uma célula de caderno e com base nele responda quais afirmações são verdadeiras
 >
