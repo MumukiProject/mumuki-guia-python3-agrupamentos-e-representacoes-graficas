@@ -38,5 +38,5 @@ Name: screens, dtype: int64
 >
 > :warning: _(os valores do exemplo não estão necessariamente corretos)_
 >
-> Calcule este relatório usando o que você viu até agora e atribua a`estados_com_cinemas_grandes`.
+> Calcule este relatório usando o que você viu até agora e atribua a `estados_com_cinemas_grandes`.
 >
