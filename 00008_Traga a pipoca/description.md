@@ -1,4 +1,4 @@
-🍿Mas ainda há mais! Também é possível fazer gráficos sobre `Séries`, novamente usando `.plot`. E como os resultados do groupby são `Séries`... podemos fazer coisas como essas!:
+🍿Mas ainda há mais! Também é possível fazer gráficos sobre `Series`, novamente usando `.plot`. E como os resultados do groupby são `Séries`... podemos fazer coisas como essas!:
 
 ```python
 # barh é uma variação do gráfico de barras que já vimos,
