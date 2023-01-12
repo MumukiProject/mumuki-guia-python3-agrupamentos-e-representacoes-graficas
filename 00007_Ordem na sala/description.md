@@ -6,7 +6,7 @@ setor
 Otros                      1
 Privado comercial        879
 Privado comunitário        4
-Privado independente      8
+Privado independente       8
 (...etc...)
 ```
 
