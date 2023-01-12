@@ -8,4 +8,4 @@ expectations:
   inspection: Uses:sort_values
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
-  inspection: Assigns:provincias_con_cines_grandes
+  inspection: Assigns:estados_com_cinemas_grandes
