@@ -1,6 +1,6 @@
 O que são então os _agrupamentos_? Quando agrupamos de acordo com uma coluna `A`, estaremos juntando todas as linhas que possuem o mesmo valor na referida coluna `A`, e então aplicaremos uma _agregação_ em todos os valores de uma coluna `B` que caíram em cada grupo.
 
-Como, como...? Bem, talvez seja mais fácil ver com um exemplo 😅. Considere seguinte tabela com placas de automóveis 🚗 e os valores de suas infrações de trânsito⛔:
+Como, como...? Bem, talvez seja mais fácil ver com um exemplo 😅. Considere seguinte tabela com placas de automóveis 🚗 e os valores de suas infrações de trânsito ⛔:
 
 |placa|infração|
 |----|---|
