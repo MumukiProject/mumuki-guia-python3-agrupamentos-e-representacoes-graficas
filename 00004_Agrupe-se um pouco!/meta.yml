@@ -13,12 +13,12 @@ choices:
   value: Não
   checked: true
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Sim, é possível usando `cinemas.value_counts("setor")`
+  value: Sim, é possível usando `cinemas.value_counts("sector")`
   checked: false
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   value: Sim, é possível usando `cinemas["screens"].sum()`
   checked: false
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Sim, é possível usando `cinemas.value_counts("setor").sum()`
+  value: Sim, é possível usando `cinemas.value_counts("sector").sum()`
   checked: false
 name: Agrupe-se um pouco!
