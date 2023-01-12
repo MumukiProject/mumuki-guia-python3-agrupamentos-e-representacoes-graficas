@@ -27,7 +27,7 @@ Córdoba,20799
 ...
 ```
 
-...mas se usarmos `as_index=False` em vez disso, teremos uma coluna demais :expressionless:
+...mas se usarmos `as_index=False` em vez disso, teremos uma coluna demais :expressionless::
 
 ```python
 ム print(cines.groupby("province", as_index=False)["seats"].sum().to_csv())
