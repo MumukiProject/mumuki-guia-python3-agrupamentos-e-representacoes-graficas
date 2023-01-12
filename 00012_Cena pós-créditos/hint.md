@@ -12,7 +12,7 @@ Isso irá gerar uma string com o conteúdo do CSV, que para maior clareza podemo
 print(uma_coluna_ou_tabela.to_csv())
 ```
 
-⚠️ Claro, tem que ter cuidado com o índice, pois por padrão o `to_csv` vai adicionar uma coluna com seus valores, que dependendo do caso pode ou não ser útil. Por exemplo, se não especificarmos `as_index=False` ao fazer agrupamentos, tudo funcionará perfeitamente :tada:...
+⚠️ Tem que ter cuidado com o índice, pois por padrão o `to_csv` vai adicionar uma coluna com seus valores, que dependendo do caso pode ou não ser útil. Por exemplo, se não especificarmos `as_index=False` ao fazer agrupamentos, tudo funcionará perfeitamente :tada:...
 
 ```python
 ム print(cinemas.groupby("province")["seats"].sum().to_csv())
