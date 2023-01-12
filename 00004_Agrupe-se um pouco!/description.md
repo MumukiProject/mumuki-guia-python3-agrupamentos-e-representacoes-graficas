@@ -33,5 +33,4 @@ Mas como seria nossa tabela ideal? 🤔 Deveria ter duas colunas...
 |6|Otros|1|
  
  
-> Faça upload da tabela anterior em seu caderno e observe-a com atenção 🔎. É possível construir esta tabela usando **somente** o que vimos até agora?
-
+> Carregue a tabela anterior em seu caderno e observe-a com atenção 🔎. É possível construir esta tabela usando **somente** o que vimos até agora?
