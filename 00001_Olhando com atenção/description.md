@@ -7,6 +7,6 @@ emprego
 
 Quando você tiver feito isso, observe com atenção os dados.
 
-> :thinking: Quais informações esse lote de dados contém? Como estão discriminados/segmentados? O que podemos observar? Você percebe algum padrão ou tendência nos dados?
+> :thinking: Quais informações esse lote de dados contém? Como estão discriminados? O que podemos observar? Você percebe algum padrão ou tendência nos dados?
 >
 > :timer: Pare alguns minutos e continue para o próximo exercício.
