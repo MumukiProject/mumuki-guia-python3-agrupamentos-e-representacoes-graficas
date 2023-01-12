@@ -20,7 +20,7 @@ choices:
     resultado para fazer gráficos"
   checked: true
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: ao representar com gráficos, a ordem dos valores dentro de uma `Series` é
+  value: Ao representar com gráficos, a ordem dos valores dentro de uma `Series` é
     irrelevante e não tem impacto no gráfico resultante
   checked: false
 name: Traga a pipoca
