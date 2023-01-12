@@ -45,7 +45,7 @@ Córdoba,20799
 Portanto, neste caso queremos excluir explicitamente o índice, usando `index=False`:
 
 ```python
-ム print(cines.groupby("province", as_index=False)["assentos"].sum().to_csv(index=False))
+ム print(cines.groupby("province", as_index=False)["seats"].sum().to_csv(index=False))
 province,seats
 Buenos Aires,93112
 Catamarca,3200
