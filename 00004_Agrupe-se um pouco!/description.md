@@ -20,7 +20,7 @@ Mas como seria nossa tabela ideal? 🤔 Deveria ter duas colunas...
  * o tipo de gestão (`sector`): uma coluna categórica (público estatal, público municipal, privado comercial, etc.)
  * o número de telas de cinema de cada gestão (`screens`): uma coluna numérica com cada um dos totais de telas.
 
-... e fique mais ou menos assim:
+... e ficar mais ou menos assim:
  
 ||sector|screens|
 |---|---|---|
