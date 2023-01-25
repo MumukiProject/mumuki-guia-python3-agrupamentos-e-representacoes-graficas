@@ -9,6 +9,6 @@ A tabela deve ficar assim:
 |21|Santiago del Estero|0.600000|
 |(...)|
 
-Não esqueça de atribuir a variável `proporcao_cinemas_comerciais_estatais`. 
+Não esqueça de atribuir a variável `proporcao_cinemas_comerciais_provinciais`. 
 
 💡 E mais uma dica: pense na função que você vai passar para `agg`, porque provavelmente não tenha uma agregação que faça exatamente o que você precisa.
