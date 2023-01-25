@@ -30,7 +30,7 @@ Córdoba,20799
 ...mas se usarmos `as_index=False` em vez disso, teremos uma coluna demais :expressionless::
 
 ```python
-ム print(cines.groupby("province", as_index=False)["seats"].sum().to_csv())
+ム print(cinemas.groupby("province", as_index=False)["seats"].sum().to_csv())
 ,province,seats # observe que agora há mais uma coluna, sem nome
 0,Buenos Aires,93112
 1,Catamarca,3200
@@ -45,7 +45,7 @@ Córdoba,20799
 Portanto, neste caso queremos excluir explicitamente o índice, usando `index=False`:
 
 ```python
-ム print(cines.groupby("province", as_index=False)["seats"].sum().to_csv(index=False))
+ム print(cinemas.groupby("province", as_index=False)["seats"].sum().to_csv(index=False))
 province,seats
 Buenos Aires,93112
 Catamarca,3200
