@@ -1,7 +1,7 @@
 Como você deve ter notado, ao agrupar obtemos uma `Series` com os valores agregados, mas fora de ordem (1, 879, 4, etc). No entanto, `groupby` ordena as colunas com base nos valores dos grupos (neste caso, em ordem alfabética: `Otro`, `Privado comercial`, `Privado comunitário`, etc):
 
 ```python
-ム  cinemas.groupby("sector")["screens"].sum()
+ム cinemas.groupby("sector")["screens"].sum()
 setor
 Otros                      1
 Privado comercial        879
@@ -13,7 +13,7 @@ Privado independente       8
 Felizmente, assim como os `DataFrame`s, as `Series` podem ser ordenadas usando `sort_values`:
 
 ```python
-ム cinemas.groupby("sector")["screens"].sum().sort_values()
+ムcinemas.groupby("sector")["screens"].sum().sort_values()
 setor
 Otros                      1
 Privado comunitario        4

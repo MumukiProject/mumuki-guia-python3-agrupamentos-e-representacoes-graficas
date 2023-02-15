@@ -8,7 +8,7 @@ Por exemplo, se tivéssemos nossa hipotética tabela de multas e quiséssemos _a
 
 
 ```python
-ム multas.groupby("placa")["infração"].sum()
+ムmultas.groupby("placa")["infração"].sum()
 placa
 ab16    500
 hz15    100
@@ -20,21 +20,21 @@ Name: infração, dtype: int64
 Da mesma forma, é assim que ficariam as outras agregações que mencionamos:
 
 ```python
-ム multas.groupby("placa")["infração"].mean()
+ムmultas.groupby("placa")["infração"].mean()
 placa
 ab16    166.666667
 hz15    100.000000
 mm12    150.000000
 xy40    175.000000
 Name: infração, dtype: float64
-ム multas.groupby("placa")["infração"].median()
+ムmultas.groupby("placa")["infração"].median()
 placa
 ab16    200.0
 hz15    100.0
 mm12    150.0
 xy40    175.0
 Name: infração, dtype: float64
-ム multas.groupby("placa")["infração"].count()
+ムmultas.groupby("placa")["infração"].count()
 placa
 ab16    3
 hz15    1

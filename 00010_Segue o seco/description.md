@@ -17,7 +17,7 @@ Quando essas situações acontecem, não poderemos agrupar descuidadamente de ac
 Em vez disso, construiremos nossos grupos levando em consideração quantas colunas forem necessárias para evitar essas ambiguidades, da seguinte maneira:
 
 ```python
-ム cinemas.groupby(["province", "department"], as_index=False)["seats"].sum()
+ムcinemas.groupby(["province", "department"], as_index=False)["seats"].sum()
 ```
 
 ||province |department |seats|

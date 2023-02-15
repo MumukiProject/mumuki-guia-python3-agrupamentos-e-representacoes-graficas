@@ -1,7 +1,7 @@
 Às vezes, podemos evitar esse tipo de problemas se o dataset original tem algum tipo de código exclusivo para cada elemento sobre o qual desejamos agrupar. Por exemplo, neste dataset temos a coluna `loc_code` que nos dá, em teoria, um identificador numérico único para cada localidade. Por isso, também faria sentido construir a `assentos_por_localidade` assim:
 
 ```python
-ム cinemas.groupby("loc_code", as_index=False)["seats"].sum()
+ムcinemas.groupby("loc_code", as_index=False)["seats"].sum()
 ```
 
 ||loc_code|seats|
@@ -16,7 +16,7 @@
 Ou se também quisermos preservar o nome da localidade:
 
 ```python
-ム  cinemas.groupby(["loc_code", "city"], as_index=False)["seats"].sum()
+ム cinemas.groupby(["loc_code", "city"], as_index=False)["seats"].sum()
 ```
 
 ||loc_code|city|seats|

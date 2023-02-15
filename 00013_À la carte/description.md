@@ -50,10 +50,10 @@ def contar_centros_culturais(nomes):
 
 ```python
 # valores de Corrientes
-ム contar_centros_culturales(['Los Cines De La Costa', 'Espacio Incaa Guido Miranda', 'Cinemacenter', 'Cinemacenter'])
+ムcontar_centros_culturales(['Los Cines De La Costa', 'Espacio Incaa Guido Miranda', 'Cinemacenter', 'Cinemacenter'])
 0
 # valores de Córdoba
-ム contar_centros_culturales(['Sudcinemas', 'Dinosaurio Mall 60 Cuadras',  'Cine Teatro Coop Luz Y Fuerza', ...]
+ムcontar_centros_culturales(['Sudcinemas', 'Dinosaurio Mall 60 Cuadras',  'Cine Teatro Coop Luz Y Fuerza', ...]
 2
 # etc...
 ```
