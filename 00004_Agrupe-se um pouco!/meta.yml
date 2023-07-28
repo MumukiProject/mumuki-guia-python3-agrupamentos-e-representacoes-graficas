@@ -8,17 +8,14 @@ extra_visible: false
 language: text
 teacher_info: ''
 manual_evaluation: false
+progressive_expectations: false
 choices:
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Não
+- value: Não
   checked: true
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Sim, é possível usando `cinemas.value_counts("sector")`
+- value: Sim, é possível usando `cinemas.value_counts("sector")`
   checked: false
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Sim, é possível usando `cinemas["screens"].sum()`
+- value: Sim, é possível usando `cinemas["screens"].sum()`
   checked: false
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Sim, é possível usando `cinemas.value_counts("sector").sum()`
+- value: Sim, é possível usando `cinemas.value_counts("sector").sum()`
   checked: false
 name: Agrupe-se um pouco!

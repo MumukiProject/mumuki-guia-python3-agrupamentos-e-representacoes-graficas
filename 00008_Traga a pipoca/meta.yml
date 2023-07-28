@@ -8,19 +8,16 @@ extra_visible: false
 language: text
 teacher_info: ''
 manual_evaluation: false
+progressive_expectations: false
 choices:
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: "`plot.barh` permite fazer gráficos de pizza"
+- value: "`plot.barh` permite fazer gráficos de pizza"
   checked: false
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: "`plot.pie` permite fazer gráficos de pizza"
+- value: "`plot.pie` permite fazer gráficos de pizza"
   checked: true
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: "`value_counts` também retorna uma `Series` e por isso é possível usar seu
+- value: "`value_counts` também retorna uma `Series` e por isso é possível usar seu
     resultado para fazer gráficos"
   checked: true
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Ao representar com gráficos, a ordem dos valores dentro de uma `Series` é
+- value: Ao representar com gráficos, a ordem dos valores dentro de uma `Series` é
     irrelevante e não tem impacto no gráfico resultante
   checked: false
 name: Traga a pipoca
